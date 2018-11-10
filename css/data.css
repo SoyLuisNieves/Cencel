@@ -1,0 +1,283 @@
+body{
+	background-color: #E6E6E6;
+}
+
+div.seccion{
+	background-color: #959595;
+	text-align: center;
+	padding: 0 0 0px 0
+}
+button.green{
+	background-color: #21BA45;
+}
+.content {
+  margin: 25px;
+}
+/*fondo*/
+.borde{
+	background-color: #DCE1F0;
+	padding: 15px 15px 0px 15px;
+}
+.box{
+	width: 223px;
+	background-color: #DCE1F0;
+}
+.block-header{
+	padding-right: 100px;
+}
+/* color #949494*/
+.fondo{
+	background-color: #E8E8E8;
+	padding: 10px;
+}
+/*borde con linea*/
+.borde2{
+	box-shadow: 0px 0px 1px 0px;
+	padding: 7px 7px 6px 7px;
+}
+div.body.borde2{
+	background-color: #F8F8F8;
+}
+/*borde para tablas*/
+.borde3{
+	box-shadow: 0px 0px 1px 0px;
+	padding: 3px 3px 0px 3px;
+	background-color: #FDFDFD;
+}
+/*borde costos*/
+.borde4{
+	box-shadow: 0px 0px 1px 0px;
+	padding: 20px 60px 0px 60px;
+}
+table.table{
+	background-color: #FDFDFD;
+}
+table.table thead tr{
+	background-color: #DEDEDD;
+	align-content: center;
+}
+tbody tr th img{
+	width: 20px;
+	align-content: center;
+}
+.esp{
+	padding: 10px 45px 0px 45px;
+}
+.esp2{
+	padding: 0px 11px 12px 11px;
+}
+.bton {
+	padding: 12px;
+}
+.bton span{
+	font-size: 16;
+}
+.text{
+	padding-left: 15px;
+}
+#enlaces { 
+	width: 180px; 
+	float: right;
+	padding-right: 10px;
+}
+div.green{
+	background-color: #21BA45;
+}
+
+/* ======================== Estilos para flechas ==========================*/
+
+/* ARROWS */
+ .falta {
+ position:relative;
+ margin: 0px;
+ width:90px;
+ height: 39px;
+ background: #E0E0E0;
+ border:solid 1.5px #CBCBCB;
+ float: left;
+ text-align: right;
+ padding-top: 8px;
+ }
+ .falta:before, .falta:after {
+ content: " ";
+ position: absolute;
+ display: block;
+ width: 0;
+ height: 0;
+ }
+ /* RIGHT ARROW */
+ .falta:before, .falta:after {
+ border-bottom: 20px solid transparent;
+ border-top: 20px solid transparent;
+ top:-1px;
+ }
+/*flecha fondo color*/
+ .falta:after {
+ border-left: 16px solid #E0E0E0;
+ right: -15px;
+ z-index: 2;
+ }
+
+/*Flecha bordes color*/
+.falta:before {
+ border-left: 16px solid #CBCBCB;
+ right: -16px;
+ z-index: 1;
+ }
+
+
+/*ACTIVO*/
+.activo {
+ position:relative;
+ margin: 0px;
+ width:90px;
+ height: 39px;
+ background: #C7E0E5;
+ border:solid 1.5px #223083;
+ float: left;
+ text-align: right;
+ padding-top: 10px;
+ }
+ .activo:before, .activo:after {
+ content: " ";
+ position: absolute;
+ display: block;
+ width: 0;
+ height: 0;
+ }
+ /* RIGHT ARROW */
+ .activo:before, .activo:after {
+ border-bottom: 20px solid transparent;
+ border-top: 20px solid transparent;
+ top:-1px;
+ }
+/*flecha fondo color*/
+ .activo:after {
+ border-left: 16px solid #C7E0E5;
+ right: -15px;
+ z-index: 2;
+ }
+
+/*Flecha bordes color*/
+.activo:before {
+ border-left: 16px solid #223083;
+ right: -16px;
+ z-index: 1;
+ }
+
+ /*HECHO*/
+.hecho {
+ position:relative;
+ margin: 0px;
+ width:90px;
+ height: 39px;
+ background: #010077;
+ border:solid 1.5px #223083;
+ float: left;
+ text-align: right;
+ padding-top: 10px;
+ }
+ .hecho:before, .hecho:after {
+ content: " ";
+ position: absolute;
+ display: block;
+ width: 0;
+ height: 0;
+ }
+ /* RIGHT ARROW */
+ .hecho:before, .hecho:after {
+ border-bottom: 20px solid transparent;
+ border-top: 20px solid transparent;
+ top:-1px;
+ }
+/*flecha fondo color*/
+ .hecho:after {
+ border-left: 16px solid #010077;
+ right: -15px;
+ z-index: 2;
+ }
+
+/*Flecha bordes color*/
+.hecho:before {
+ border-left: 16px solid #223083;
+ right: -16px;
+ z-index: 1;
+ }
+
+ /*TERMINADO*/
+.fin {
+ position:relative;
+ margin: 0px;
+ width:95px;
+ height: 39px;
+ background: #CBCBCB;
+ border:solid 1.5px #223083;
+ float: left;
+ text-align: center;
+ padding-top: 10px;
+ padding-left: 4px;
+ }
+ .fin:before, .fin:after {
+ content: " ";
+ position: absolute;
+ display: block;
+ width: 0;
+ height: 0;
+ }
+ /* RIGHT ARROW */
+ .fin:before, .fin:after {
+ border-bottom: 20px solid transparent;
+ border-top: 20px solid transparent;
+ top:-1px;
+ }
+ .text{
+ 	font-size: 12px;
+ 	font-weight: bold;
+ }
+ #caja{
+ 	background-color: #BFBFBF;
+ 	border: 1px solid #d66;
+ 	text-align: center;
+ 	width: 150px;
+ }
+ #caja2{
+ 	background-color: #D4D4D4;
+ 	text-align: center;
+ 	border: 1px solid #BFBFBF;
+ 	padding: 3px;
+ 	width: 100px;
+ }
+ .caja2{
+ 	background-color: #CBCBCB;
+ 	text-align: center;
+ 	border: 1px solid #BFBFBF;
+ 	padding: 2px;
+ }
+/* ============= Fin menu ===========*/
+
+/* ============= desplegable categorias ===========*/
+
+/* =============Fin desplegable categorias ===========*/
+
+input[type=text]:focus{color:rgba(0,0,0,.95);border-radius:.28571429rem;background:#CBCBCB;}
+a.buttons-copy, a.buttons-csv{
+	display: none;
+}
+#totales{
+	background: #E8E8E8;
+}
+
+.boton{
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        background: none;
+        border:0px;
+    font-weight: normal;
+    display: block;
+    font-size: 13px;
+    line-height: 26px;
+    text-align-last: left;
+       }
+.btone{
+        padding: 5px 0px 0px 6px;
+       }
